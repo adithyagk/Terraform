@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vspod2
+  labels:
+    apps: myapp
+spec:
+  containers:
+    - name: vspodnginx
+      image: nginx:latest
+
